@@ -12,10 +12,10 @@ We enhance the dataset used in Article Number 1 by incorporating additional data
 
 We focus on two specific model architectures:
 
-- Squeeznet
+#### Squeeznet
 
 In the Squeeznet model, our main task is to fine-tune the classifier layer to adapt it to our extended dataset. This model has shown promise in previous research for image classification tasks.
 
-- ResNet-18
+#### ResNet-18
 
 For the ResNet-18 model, we train only the last layer (Fully Connected) and the last sequential layer. This transfer learning approach allows us to leverage the pre-trained ResNet-18 model's features while adapting it to our specific task.
