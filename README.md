@@ -10,11 +10,7 @@ We enhance the dataset used in Article Number 1 by incorporating additional data
 
 ### Model Architecture
 
-We focus on two specific model architectures:
-
-#### Squeeznet
-
-In the Squeeznet model, our main task is to fine-tune the classifier layer to adapt it to our extended dataset. This model has shown promise in previous research for image classification tasks.
+We focus on one specific model architectures:
 
 #### ResNet-18
 
